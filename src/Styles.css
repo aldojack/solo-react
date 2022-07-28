@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.contact-card{
+    max-width: 320px;
+    color: white;
+    margin-block: 2.25rem;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #1A1B21;
+}
+
+.contact-card h2{
+    font-size: 1rem;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+
+.contact-card h2+p {
+    font-size: 0.6rem;
+    line-height: 1.5em;
+    max-width: 230px;
+    color: #DCDCDC;
+}
+
+/* Profile Header  */
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.profile-title{
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.profile-job-title{
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #F3BF99;
+}
+
+.profile-website{
+    margin-block: 0.5rem 1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    color: white;
+}
+
+.profile-website:hover,
+.profile-website:focus 
+{
+    color: rgb(90, 86, 86);
+}
+
+.contact-btns{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-btn{
+    width: 115px;
+    padding-block: 0.5em;
+    background: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.linkedIn{
+    background: #5093E2;
+    color: white;
+}
+
+/* About */
+.profile-about{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-block: 1.6rem 0.3rem;
+}
+
+/* Interests */
+.profile-interests{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-block: 1.6rem 0.3rem;
+}
+
+/* Footer */
+
+.profile-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 4.5rem;
+    background: #161619;
+    margin-top: 2rem;
+    /* padding-left: 4.5rem;
+    padding-right: 4.5rem; */
+}
+
+.profile-footer img{
+    width: 25px;
+    aspect-ratio: 1/1;
+}
