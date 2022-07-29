@@ -15,13 +15,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .contact-card{
     max-width: 320px;
     color: white;
-    margin-block: 2.25rem;
     overflow: hidden;
     border-radius: 10px;
     background: #1A1B21;
