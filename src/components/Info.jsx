@@ -9,7 +9,7 @@ export default function Info() {
             <a href="www.alan-jack.me" className='profile-website'>alan-jack.me</a>
             <div className='contact-btns'>
                 <button className='contact-btn'>✉ Email</button>
-                <button className='contact-btn linkedIn'><a href='https://www.linkedin.com/in/alan-jack/' target="_blank">✉ LinkedIn</a></button>
+                <button className='contact-btn linkedIn'><a href='https://www.linkedin.com/in/alan-jack/' target="_LIN" rel="noopener noreferrer">✉ LinkedIn</a></button>
             </div>
         </div>
     )
