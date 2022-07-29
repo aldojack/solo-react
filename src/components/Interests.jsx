@@ -1,8 +1,9 @@
 export default function Interests() {
+    const interests = ['Cooking', 'Football','Coding','Gaming','Watching MMA', 'General Techy-ness']
     return (
         <div className="profile-interests">
             <h2 className="interests-title">Interests</h2>
-            <p className="interests-body">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic</p>
+            <p className="interests-body">{interests.join(', ')}</p>
         </div>
     )
 }
