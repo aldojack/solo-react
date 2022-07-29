@@ -1,5 +1,5 @@
 import Facebook from './Facebook.png';
-import GitHub from './Github.png';
+import GitHub from './GitHub.png';
 import Instagram from './Instagram.png';
 import Twitter from './Twitter.png';
 
