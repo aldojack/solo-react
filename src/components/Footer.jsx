@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className='profile-footer'>
             {Object.entries(Socials).map(social => {
-                return <img src={social[1]} alt={social[0]+" Logo"}/>
+                return <img src={social[1]} key={social[0]} alt={social[0]+" Logo"}/>
             })}
         </footer>
     )
