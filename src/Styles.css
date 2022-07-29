@@ -94,6 +94,22 @@ body{
     cursor: pointer;
 }
 
+.contact-btn > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-btn:nth-child(odd):hover {
+    background-color: black;
+    color: white;
+}
+
+.contact-btn:nth-child(even):hover, 
+.contact-btn a:nth-child(1):hover {
+    background-color: white;
+    color: #5093E2;
+}
+
 .linkedIn{
     background: #5093E2;
     color: white;
