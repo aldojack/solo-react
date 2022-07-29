@@ -24,6 +24,7 @@ body{
     overflow: hidden;
     border-radius: 10px;
     background: #1A1B21;
+    box-shadow: rgb(237 237 237 / 19%) 0px 7px 29px 0px;
 }
 
 .contact-card h2{
